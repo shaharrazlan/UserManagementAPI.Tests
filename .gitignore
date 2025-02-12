@@ -1,0 +1,33 @@
+# 🛑 Ignore test build and log files
+Tests/bin/
+Tests/obj/
+Tests/TestResults/
+Tests/coverage/
+
+# 🛑 Ignore debug and cache files
+*.log
+*.tmp
+*.cache
+
+# 🛑 Ignore user-specific Visual Studio files
+.vscode/
+*.user
+*.suo
+*.vs/
+
+# 🛑 Ignore JetBrains Rider and VS Code settings
+.idea/
+*.iml
+
+# 🛑 Ignore Code Coverage Reports
+coverage/
+lcov-report/
+coverage.xml
+
+# 🛑 Ignore NUnit, xUnit, and MSTest result files
+*.trx
+*.coverage
+*.testsettings
+
+# 🛑 Ignore artifacts from `dotnet test`
+TestResults/
